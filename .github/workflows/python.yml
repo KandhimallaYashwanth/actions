@@ -21,10 +21,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install pytest
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install pytest  # Directly install pytest
 
       - name: Run tests with pytest
         run: |
