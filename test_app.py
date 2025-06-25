@@ -1,5 +1,3 @@
-def test_greet():
-  print("hello")
 def test_hi():
-  print("hi" ,test_greet())
+  print("hi from test_app.py")
 print(test_hi())
