@@ -1,6 +1,4 @@
-def greet():
-  print("hi")
 def hello():
-  print("heeee" , greet())
+  print("heeee from sample.py")
 
 print(hello())
